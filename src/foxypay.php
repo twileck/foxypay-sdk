@@ -1,6 +1,6 @@
 <?php
 
-namespace FoxyPay;
+namespace Twileck;
 
 class FoxyPay {
 	
@@ -16,7 +16,7 @@ class FoxyPay {
 	{
 		$this->token = $token;
 	}
-	
+
 	public function setWebHookUrl($url)
 	{
 		$this->webhookUrl = $url;
