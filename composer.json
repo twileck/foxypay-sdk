@@ -1,0 +1,16 @@
+{
+    "name": "twileck/foxypay-sdk",
+    "description": "SDK for FoxyPay payment system",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Twileck\\FoxyPay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "LokaDoka"
+        }
+    ],
+    "require": {}
+}
