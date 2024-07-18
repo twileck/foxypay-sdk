@@ -20,31 +20,37 @@ class FoxyPay {
 	public function setWebHookUrl($url)
 	{
 		$this->webhookUrl = $url;
+		return $this;
 	}
 	
 	public function setSuccessUrl($url)
 	{
 		$this->successUrl = $url;
+		return $this;
 	}
 	
 	public function setFailUrl($url)
 	{
 		$this->failUrl = $url;
+		return $this;
 	}
 	
 	public function setInfo($info)
 	{
 		$this->info = $info;
+		return $this;
 	}
 	
 	public function setAmount($amount)
 	{
 		$this->amount = (int)$amount * 100;
+		return $this;
 	}
 	
 	public function setDescription($description = "Payment")
 	{
 		$this->description = $description;
+		return $this;
 	}
 	
 	public function getPayUrl()
