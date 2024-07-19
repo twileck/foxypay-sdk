@@ -43,7 +43,7 @@ class FoxyPay {
 	
 	public function setAmount($amount)
 	{
-		$this->amount = (int)$amount * 100;
+		$this->amount = (float)$amount * 100;
 		return $this;
 	}
 	
